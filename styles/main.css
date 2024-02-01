@@ -1,0 +1,99 @@
+body {
+  font-family: cursive;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+}
+
+header h1 {
+  background-color: #5ef3c1;
+  text-align: center;
+  padding: 20px 0;
+  margin: 0;
+  font-size: 40px;
+  width: auto;
+  height: auto;
+}
+
+ div ul {
+  margin: 0;
+  padding: 0;
+}
+
+ div ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, border-radius 0.3s;
+}
+
+div ul li:hover {
+  background-color: #f1a458;
+  color: #fff;
+  border-radius: 5px;
+}
+
+#movie-display {
+  float: right;
+  width: 55%; /* Adjust width as needed */
+  margin: 0 auto; /* Center horizontally */;
+  padding: 20px;
+  justify-content: center; /* Center movie display */
+}
+#movie-name {
+  margin-top: 0;
+}
+
+#movie-menu {
+  float: left;
+  width: 250px;
+  border-right: solid #404040 1px;
+  border-bottom: solid #404040 1px;
+  border-radius: 0 0 6px 0;
+  padding: 10px;
+  margin-right: 10px;
+  background-color: #fff;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 5px; /* Added border radius */
+}
+
+button:hover {
+  background-color: #0f1011;
+}
+
+#movie-dets {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 50vw;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+#movie-details h2 {
+  color: #278fd9;
+}
+
+#movie-image {
+  display: block;
+  height: auto;
+  max-width: 300px;
+  margin: 0 3px 20px 3px;
+}
+
+#buy-tickets {
+  display: flex;
+  justify-content: center; /* Center buy tickets button */
+  border-radius: 10px;
+}
